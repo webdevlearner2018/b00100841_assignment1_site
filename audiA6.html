@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>B00100841</title>
+		<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+		<style>
+
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1000000s;
+		  animation-name: fade;
+		  animation-duration: 1000000s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .9}
+		  to {opacity: 1}
+		}
+
+		@keyframes fade {
+		  from {opacity: .9}
+		  to {opacity: 1}
+		}
+
+		</style>
+
+		<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+		<script>var __adobewebfontsappname__="dreamweaver"</script>
+		<script src="http://use.edgefonts.net/actor:n4:default;alfa-slab-one:n4:default;handlee:n4:default;architects-daughter:n4:default;coming-soon:n4:default;amaranth:n4:default.js"></script>
+	</head>
+
+	<body style="padding-top: 80px">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="images/logos/logo.PNG" width="208" height="52" alt="wheeldeallogo"/></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+			<ul class="navbar-nav navlist">
+				<li class="navlistitems"><a href="index.html">Home</a> </li>
+				<li class="navlistitems"><a href="newcars.html">New Cars</a></li>
+				<li class="navlistitems current"><a href="usedcars.html">Used Cars</a> </li>
+				<li class="navlistitems"><a href="dealers.html">Dealers</a> </li>
+				<li class="navlistitems"><a href="buyerguides.html">Buyer Guides</a> </li>
+				<li class="navlistitems"><a href="advertise.html">Advertise</a> </li>
+				<li class="navlistitems"><a href="about.html">About Us</a> </li>
+				<li class="navlistitems"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		  </div>
+		</nav>
+
+		<div id="header"><img src="images/logos/header.png" width="60" height="60" alt="mylogo"/></div>
+
+		<div id="main">
+			<div class="usedcars-leftcolumn">
+				<div class="seller-info">
+					<h5>Audi Cork</h5>
+					<p>Franchise Dealer</p>
+
+					<!--Beginning slideshow code-->
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+						  <div class="numbertext">1 / 9</div>
+						  <img src="images/Usedcars/audiA6.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">2 / 9</div>
+						  <img src="images/Usedcars/audiA6-2.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">3 / 9</div>
+						  <img src="images/Usedcars/audiA6-3.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">4 / 9</div>
+						  <img src="images/Usedcars/audiA6-4.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">5 / 9</div>
+						  <img src="images/Usedcars/audiA6-5.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">6 / 9</div>
+						  <img src="images/Usedcars/audiA6-6.jpeg" alt="audiA6" >
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">7 / 9</div>
+						  <img src="images/Usedcars/audiA6-7.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">8 / 9</div>
+						  <img src="images/Usedcars/audiA6-8.jpeg" alt="audiA6">
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">9 / 9</div>
+						  <img src="images/Usedcars/audiA6-9.jpeg" alt="audiA6">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<br>
+
+					<div style="text-align:center">
+					  <span class="dot" onclick="currentSlide(1)"></span>
+					  <span class="dot" onclick="currentSlide(2)"></span>
+					  <span class="dot" onclick="currentSlide(3)"></span>
+					  <span class="dot" onclick="currentSlide(4)"></span>
+					  <span class="dot" onclick="currentSlide(5)"></span>
+					  <span class="dot" onclick="currentSlide(6)"></span>
+					  <span class="dot" onclick="currentSlide(7)"></span>
+					  <span class="dot" onclick="currentSlide(8)"></span>
+					  <span class="dot" onclick="currentSlide(9)"></span>
+					</div>
+
+				<script>
+					var slideIndex = 1;
+					showSlides(slideIndex);
+
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("dot");
+					  if (n > slides.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+						  slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+						  dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";
+					  dots[slideIndex-1].className += " active";
+					}
+				</script>
+			<!--End slideshow code-->
+
+			<p>Audi A6 se executive 2018 automatic<br>Dublin<br>&euro;37,900</p>
+			</div>
+
+			<div class="keyinfo-features">
+				<div class="key-info">
+					<h5>Key Info</h5>
+					<p>Overview and Description</p>
+
+					<div class="grid-container">
+						<div class="grid-item1">Make</div>
+						<div class="grid-item2">Audi</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Model</div>
+						<div class="grid-item2">A6</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Year</div>
+						<div class="grid-item2">2018</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Mileage</div>
+						<div class="grid-item2">12,897 km</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Fuel Type</div>
+						<div class="grid-item2">Diesel</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Transmission</div>
+						<div class="grid-item2">Automatic</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Body Type</div>
+						<div class="grid-item2">Saloon</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Engine Size</div>
+						<div class="grid-item2">2.0 litre</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Road Tax</div>
+						<div class="grid-item2">&euro;190</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">NCT Expiry</div>
+						<div class="grid-item2">Mar 2022</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Previous Owners</div>
+						<div class="grid-item2">1</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Country of Reg.</div>
+						<div class="grid-item2">Ireland</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Colour</div>
+						<div class="grid-item2">Grey</div>
+					</div>
+
+					<div class="grid-container">
+						<div class="grid-item1">Doors</div>
+						<div class="grid-item2">4</div>
+					</div>
+				</div>
+
+				<div class="features">
+					<b>Audi A6 2.0tdi 150BHP SE Automatic 18 (2018)</b><br>
+
+					<p>Features:<br>
+					- CD Player<br>
+					- Mobile Phone Preparation-Bluetooth<br>
+					- Audi Drive Select<br>
+					- Audi Stop/Start<br>
+					- Auto Handbrake<br>
+					- Cruise Control<br>
+					- DSG<br>
+					- Power Assisted Steering<br>
+					- 17"Alloys<br>
+					- Chrome Exterior Package<br>
+					- Metalic Paint<br>
+					- S-Line Exterior Pack<br>
+					- Air Conditioning<br>
+					- Ambient Lighting<br>
+					- Armrest<br>
+					- Button Start-Stop<br>
+					- Colour Driver Information system<br>
+					- Dual Climate control<br>
+					- Electric Mirrors<br>
+					- Electric Mirrors Heated Memory<br>
+					- Electric Windows<br>
+					- Front Footwell Illumination<br>
+					- Front/Rear Floor Mats<br>
+					- Illuminated Centre Console Storage<br>
+					- Illuminated Vanity Mirror<br>
+					- Interior Mirror with Automatic Antiglare Action<br>
+					- LED Interior Light Pack<br>
+					- Multi-Function Steering Wheel<br>
+					- Onboard Computer<br>
+					- Rake/Reach Adjustable Steering Column<br>
+					- Split Fold Rear Seats<br>
+					- Electrically Adjustable Seats<br>
+					- Heated Seats<br>
+					- Memory Function Driver seat<br>
+					- ABS<br>
+					- Auto Lights and Wipers<br>
+					- Child Locks<br>
+					- Electronic Stability Programme (ESP)<br>
+					- Front and Rear Park Assist<br>
+					- Hill Hold Assist<br>
+					- Immobilizer<br>
+					- ISO Fix<br>
+					- ISO Fix Front Passenger and Rear Seat Preparation<br>
+					- Remote Central Locking<br>
+					- Xenon with LED Daytime Running Lights<br>
+					- Diesel Particulate Filter<br>
+					- Full Service History<br>
+					- Audi Connect<br>
+					- Audi Smartphone Interface<br>
+					- MMI Navigation Plus with MMI touch<br>
+					- USB charging ports
+					</p>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div id="footer">
+			<div id="socialnw">Follow Us:
+				<a href="https://www.facebook.com"><img src="images/logos/facebook.png" class="resize" alt="facebook"></a>
+				<a href="https://twitter.com"><img src="images/logos/twitter.png" class="resize" alt="twitter"></a>
+				<a href="https://www.youtube.com"> <img src="images/logos/youtube.png" class="resize" alt="youtube"></a>
+			</div>
+			Copyright 2018. All rights reserved.
+		</div>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap-4.0.0.js"></script>
+	</body>
+</html>
